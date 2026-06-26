@@ -14,4 +14,4 @@ Proiect personal, construit de la zero pentru a exersa design responsive și lay
 - Secțiuni: hero, beneficii, prețuri, antrenori, orar, contact
 
 ## Demo live
-(link-ul de GitHub Pages — îl adăugăm la pasul următor)
+https://raulvm7.github.io/forge-studio/
