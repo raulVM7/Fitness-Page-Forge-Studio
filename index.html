@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forge Studio — Studio de forță în Craiova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+</head>
+<body>
+  <div class="hero">
+
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">Forge<span class="logo__sub"> Studio</span></span>
+      </div>
+
+      <div class="nav_right">
+        <div class="nav_menu">
+          <a href="#program">Program</a>
+          <a href="#antrenori">Antrenori</a>
+          <a href="#preturi">Preturi</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-btn" aria-label="Meniu" aria-expanded="false" id="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="hero__inner">
+
+      <div class="hero__copy">
+        <span class="eyebrow">Craiova · Studio de forță</span>
+        <h1 class="title">Forjează-ți<br><span class="accent">limitele</span></h1>
+        <p class="subtitle">Antrenamente de forță și condiție fizică ghidate de antrenori care nu acceptă scuze. Prima ședință e gratuită.</p>
+
+        <div class="actions">
+          <button class="btn btn--fill">Începe acum</button>
+          <button class="btn btn--ghost">Vezi orarul</button>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__num">400<span class="accent">+</span></div>
+            <div class="stat__label">membri activi</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">20+</div>
+            <div class="stat__label">clase / săptămână</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">8</div>
+            <div class="stat__label">antrenori certificați</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <figure class="shot">
+          <span class="shot__corner" aria-hidden="true"></span>
+          <div class="shot__top">
+            <span class="badge">Semnătura sălii</span>
+          </div>
+          <img class="shot__img" src="poze/2.jpg" alt="Zona de forjă a sălii Forge Studio, cu rig de oțel și greutăți libere">
+          <figcaption class="shot__caption">
+            <div class="shot__title">Zona de Forjă</div>
+            <div class="shot__desc">Singurul rig de oțel forjat manual din Craiova — sled, frânghii și greutăți libere pe 120&nbsp;m².</div>
+          </figcaption>
+        </figure>
+      </div>
+
+    </main>
+  </div>
+
+ 
+
+  <div class="info">
+    <div class="info-container">
+
+      <div class="info-card">
+        <div class="info-icon"><i class="mdi mdi-dumbbell"></i></div>
+        <div class="info-desc">
+          <h3>Echipament nou</h3>
+          <p>Aparate de top, mereu disponibile.</p>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-icon"><i class="mdi mdi-account-multiple"></i></div>
+        <div class="info-desc">
+          <h3>Antrenori dedicati</h3>
+          <p>Plan Personalizat pentru tine.</p>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-icon"><i class="mdi mdi-clock-time-three-outline"></i></div>
+        <div class="info-desc">
+          <h3>Non-Stop</h3>
+          <p>Acces 24/7 cu cardul tau.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <h2 class="preturi-h2">Alege-ti planul</h2>
+  <div class="preturi" id="preturi">
+    <div class="preturi-container">
+
+      <div class="preturi-card">
+        <p class="preturi-head">Basic</p>
+        <p class="preturi-pret"><span>120</span> lei/luna</p>
+        <p class="preturi-desc">Acces sala</p>
+        <p class="preturi-desc">Vestiare</p>
+      </div>
+
+      <div class="preturi-card">
+        <p class="popular">Popular</p>
+        <p class="preturi-head">Pro</p>
+        <p class="preturi-pret"><span>190</span> lei/luna</p>
+        <p class="preturi-desc">Tot din Basic</p>
+        <p class="preturi-desc">Clase de grup</p>
+        <p class="preturi-desc">1 Sedinta Masaj</p>
+      </div>
+
+      <div class="preturi-card">
+        <p class="preturi-head">Elite</p>
+        <p class="preturi-pret"><span>240</span> lei/luna</p>
+        <p class="preturi-desc">Tot Din Pro</p>
+        <p class="preturi-desc">Masaj Nelimitat</p>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="antrenori" id="antrenori">
+  <span class="eyebrow">Echipa Forge</span>
+  <h2>Antrenorii noștri</h2>
+    
+  <div class="antrenori-grid">
+    <div class="antrenor">
+      <div class="antrenor-poza">
+        <span></span>
+        <img src="poze/a1.jpg" alt="Andrei Pop, coach forță">
+      </div>
+      <h3>Andrei Pop</h3>
+      <p>Coach forță</p>
+    </div>
+    
+    <div class="antrenor">
+      <div class="antrenor-poza">
+        <span></span>
+        <img src="poze/a2.jpg" alt="Andrei Pop, coach forță">
+      </div>
+      <h3>Ioana Marin</h3>
+      <p>Nutriție & condiție</p>
+    </div>
+
+
+    <div class="antrenor">
+      <div class="antrenor-poza">
+        <span></span>
+        <img src="poze/a3.jpg" alt="Andrei Pop, coach forță">
+      </div>
+      <h3>Vlad Ene</h3>
+      <p>Powerlifting · 8 ani</p>
+    </div>
+
+  </div>
+</section>
+  
+
+
+  <section class="program" id="program">
+    <span class="eyebrow">Program săptămânal</span>
+    <h2>ORAR</h2>
+
+    <div class="orar">
+      <div class="orar-row">
+        <span class="orar-zi">Luni</span>
+        <span class="orar-clasa">Forță & Powerlifting</span>
+        <span class="orar-ora">18:00 – 20:00</span>
+      </div>
+      <div class="orar-row">
+        <span class="orar-zi">Marți</span>
+        <span class="orar-clasa">CrossFit</span>
+        <span class="orar-ora">19:00 – 20:30</span>
+      </div>
+      <div class="orar-row">
+        <span class="orar-zi">Miercuri</span>
+        <span class="orar-clasa">Mobilitate & recuperare</span>
+        <span class="orar-ora">18:00 – 19:00</span>
+      </div>
+      <div class="orar-row">
+        <span class="orar-zi">Joi</span>
+        <span class="orar-clasa">Forță & Powerlifting</span>
+        <span class="orar-ora">18:00 – 20:00</span>
+      </div>
+      <div class="orar-row">
+        <span class="orar-zi">Vineri</span>
+        <span class="orar-clasa">Hyrox</span>
+        <span class="orar-ora">19:00 – 20:30</span>
+      </div>
+      <div class="orar-row">
+        <span class="orar-zi">Sâmbătă</span>
+        <span class="orar-clasa">Open Gym</span>
+        <span class="orar-ora">10:00 – 14:00</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <span class="eyebrow">Hai la o vizită</span>
+    <h2>CONTACT</h2>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="mdi mdi-map-marker"></i> Adresa
+          <div>Str. Unirii 42, Craiova</div>
+        </div>
+        <div class="contact-item">
+          <i class="mdi mdi-email-outline"></i> Email
+          <div>Forgestudio@gmail.com</div>
+        </div>
+        <div class="contact-item">
+          <i class="mdi mdi-phone"></i> Phone
+          <div>0770 949 345</div>
+        </div>
+        <div class="contact-item">
+          <i class="mdi mdi-clock-outline"></i> Program
+          <div class="contact-prog">L–V 10:00–00:00 · S–D 10:00–22:00</div>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Nume">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mesaj" rows="4"></textarea>
+        <button type="submit">Trimite</button>
+      </form>
+
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>&copy; 2026 Forge Studio</p>
+    <div class="social-links">
+      <i class="mdi mdi-instagram"></i>
+      <i class="mdi mdi-facebook"></i>
+    </div>
+  </footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
