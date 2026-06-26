@@ -1,17 +1,18 @@
 # Forge Studio
 
-Landing page pentru un studio de fitness fictiv din Craiova.
-Proiect personal, construit de la zero pentru a exersa design responsive și layout modern.
+Landing Page for a Fictional Fitness Studio (Craiova)
 
-## Tehnologii
-- HTML5 (structură semantică)
-- CSS3 (Flexbox, Grid, clamp, variabile CSS, design mobile-first)
-- JavaScript (meniu interactiv)
+A personal project built from scratch to practice responsive web design and modern layout techniques.
+
+## Technologies
+- HTML5 – semantic structure
+- CSS3 – Flexbox, CSS Grid, clamp(), CSS variables, mobile-first approach
+- JavaScript – interactive navigation menu
 
 ## Funcționalități
-- Design complet responsive (mobil, tabletă, desktop)
-- Meniu hamburger cu animație și dropdown pe mobil
-- Secțiuni: hero, beneficii, prețuri, antrenori, orar, contact
+- Fully responsive design (mobile, tablet, and desktop)
+- Animated hamburger menu with a mobile dropdown navigation
+- Dedicated sections for: Hero, Benefits, Pricing, Trainers, Schedule, and Contact
 
 ## Demo live
 https://raulvm7.github.io/forge-studio/
