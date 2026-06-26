@@ -15,4 +15,4 @@ A personal project built from scratch to practice responsive web design and mode
 - Dedicated sections for: Hero, Benefits, Pricing, Trainers, Schedule, and Contact
 
 ## Demo live
-https://raulvm7.github.io/forge-studio/
+[https://raulvm7.github.io/forge-studio/](https://raulvm7.github.io/Fitness-Page-Forge-Studio/)
